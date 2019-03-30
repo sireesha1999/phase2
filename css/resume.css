@@ -1,0 +1,45 @@
+body{
+  background: #45B39D;
+  text-align: center;
+}
+.parent{
+  width:80%;
+  height:80%;
+  padding:2%;
+  margin:2%;
+  border:2px solid black;
+  border-radius: 5%;
+  background: #8E44AD;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.left{
+  width:30%;
+  padding:1%;
+  margin:1%;
+  border:2px solid black;
+  border-radius: 3%;
+  text-align: center;
+  background: #FADBD8  ;
+}
+h1{
+  color: red;
+  text-align: center;
+}
+.left img{
+  width:30%;
+  height: 30%;
+}
+.right{
+  width:60%;
+  padding: 1%;
+  margin: 1%;
+  border:2px solid black;
+  border-radius: 3%;
+  background: #FADBD8  ;
+}
+/* @media screen and (max-width=767px) { */
+
+
+}

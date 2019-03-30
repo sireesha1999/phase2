@@ -1,0 +1,59 @@
+header{
+  background: #82E0AA  ;
+  text-align: center;
+  font-style: italic;
+}
+h1{
+  color: #F1948A;
+  text-align: center;
+}
+body{
+  background: #FAD7A0  ;
+  /* display: flex; */
+}
+parent{
+  width: 85%;
+  height: 85%;
+  margin: 1%;
+  padding:1%;
+  border:2px solid black;
+
+}
+img{
+  width:100%;
+  height:100%;
+
+  text-align: right;
+  float: right;
+}
+a{
+  float:right;
+}
+.child{
+  width:10%;
+  height: 200%;
+  padding:1%;
+  margin:1%;
+  border:2px solid black;
+  border-radius: 3%;
+  display:block;
+  background: pink;
+  justify-content: space-around;
+}
+.child img{
+width:50px;
+height:50px;
+float: left;
+}
+/*.child h2{
+  float:left;
+  font-style: italic;
+  color: #82E0AA
+}*/
+.link{
+  /* text-decoration: none; */
+  /* background-color: red;   */
+  color: red;
+  float: left;
+
+}
